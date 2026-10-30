@@ -1,0 +1,72 @@
+
+# ==============================
+# VARIABLES DE ENTORNO Y SECRETOS
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# ENTORNOS VIRTUALES
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ==============================
+# TEMPORALES Y CACHÉ
+# ==============================
+.pip-tmp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+
+# ==============================
+# TESTING Y COBERTURA
+# ==============================
+.coverage
+.coverage.*
+htmlcov/
+
+# ==============================
+# EDITORES
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# SISTEMA OPERATIVO
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# DISTRIBUCIÓN
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# ARCHIVOS DE SEGURIDAD
+# ==============================
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
